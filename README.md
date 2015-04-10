@@ -12,7 +12,8 @@ Install:
 --------
 
 - Copy or clone the repository
-- Run `bundle install` to install docopt, if not already installed
+- Run `bundle install` to install docopt, if not already installed 
+  (or `gem install docopt`)
 
 
 Develop your program:
