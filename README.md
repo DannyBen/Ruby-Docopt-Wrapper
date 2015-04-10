@@ -11,6 +11,7 @@ Usage:
 ------
 
 - Copy or clone the repository
+- Run `bundle install` to install docopt, if not already installed
 - Edit the `docopt.txt` file to match your program
 - Rename `program.rb` to your program's name
 - Edit `commands.rb` and add a function for each command
