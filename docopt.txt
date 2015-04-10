@@ -1,0 +1,15 @@
+program
+One line summary
+
+Usage:
+  program sayhello 
+  program greet <name>
+  program (-h | --help | --version)
+
+Commands:
+  sayhello          Say hello
+  greet <name>      Say hello to <name>
+
+Options:
+  -h --help         Show this screen
+     --version      Show version
