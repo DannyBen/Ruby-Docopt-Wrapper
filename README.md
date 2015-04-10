@@ -26,7 +26,7 @@ Develop your program:
 Add an executable:
 ------------------
 
-Optionally, add a link to one of the folders ins the path, like:
+Optionally, add a link to one of the folders in the path, like:
 
 	$ sudo ln -sf/path/to/program.rb /usr/local/bin/program
 
