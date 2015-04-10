@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 require "docopt"
+require_relative "commands.rb"
 
 doc  = File.read('docopt.txt')
-require_relative "commands.rb"
 
 begin
 	args = Docopt::docopt(doc, version: $version, argv:ARGV)
