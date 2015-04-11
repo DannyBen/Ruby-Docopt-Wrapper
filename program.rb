@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require "docopt"
+require_relative "colors.rb"
 require_relative "commands.rb"
 
 doc  = File.read('docopt.txt')
@@ -11,3 +12,6 @@ rescue Docopt::Exit => e
 	puts e.message
 end
 
+def say(msg)
+	print msg.end_with?(" ") ? msg : msg + "\n"
+end
